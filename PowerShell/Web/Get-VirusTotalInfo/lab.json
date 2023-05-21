@@ -1,0 +1,24 @@
+
+[32;1mStatusCode        : [0m200
+[32;1mStatusDescription : [0mOK
+[32;1mContent           : [0m{
+[32;1m                    [0m    "data": {
+[32;1m                    [0m        "attributes": {
+[32;1m                    [0m            "type_description": "Win32 EXE",
+[32;1m                    [0m            "tlsh": "T17C72B44376E51CB1EF2811B6429293FC927DE0604766F2EE78731A46D432893793CADB",
+[32;1m                    [0m            "vhash"…
+[32;1mRawContent        : [0mHTTP/1.1 200 OK
+[32;1m                    [0mCache-Control: no-cache
+[32;1m                    [0mX-Cloud-Trace-Context: 53d310d0b8c6d03fde9802e519abc3e1
+[32;1m                    [0mDate: Mon, 31 Jan 2022 21:20:11 GMT
+[32;1m                    [0mServer: Google
+[32;1m                    [0mServer: Frontend
+[32;1m                    [0mContent-Type: application/json…
+[32;1mHeaders           : [0m{[Cache-Control, System.String[]], [X-Cloud-Trace-Context, System.String[]], [Date, System.String[]], [Server, System.String[]]…}
+[32;1mImages            : [0m{}
+[32;1mInputFields       : [0m{}
+[32;1mLinks             : [0m{}
+[32;1mRawContentLength  : [0m34248
+[32;1mRelationLink      : [0m{}
+
+
