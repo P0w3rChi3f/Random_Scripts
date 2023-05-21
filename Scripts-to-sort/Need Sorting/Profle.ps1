@@ -1,0 +1,1 @@
+new-alias -name wt.exe -value wt -p "Powershell" `; new-tab -p "Windows PowerShell" `; new-tab -p "Command Prompt" `; new-tab -p "Debian" `; focus-tab -t 0

@@ -1,0 +1,196 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">VMware.VimAutomation.Vmc</S>
+      <Version N="Version">12.2.0.17531704</Version>
+      <S N="Type">Module</S>
+      <S N="Description">This Windows PowerShell module contains PowerCLI VMC cmdlets.</S>
+      <S N="Author">VMware</S>
+      <S N="CompanyName">VMware</S>
+      <S N="Copyright">Copyright (c) 2017 VMware, Inc. All rights reserved.</S>
+      <DT N="PublishedDate">2021-02-03T13:14:06-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2021-04-15T15:15:54.4630974-04:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <Nil N="ProjectUri" />
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-VmcSddcHost</S>
+                <S>Connect-Vmc</S>
+                <S>Disconnect-Vmc</S>
+                <S>Get-AwsAccount</S>
+                <S>Get-AwsVpcSubnet</S>
+                <S>Get-VmcClusterEdrsPolicy</S>
+                <S>Get-VmcOrganization</S>
+                <S>Get-VmcSddc</S>
+                <S>Get-VmcSddcCluster</S>
+                <S>Get-VmcSddcNetworkService</S>
+                <S>Get-VmcSddcSiteRecovery</S>
+                <S>Get-VmcSddcSiteRecoveryInstance</S>
+                <S>Get-VmcService</S>
+                <S>New-VmcSddc</S>
+                <S>New-VmcSddcCluster</S>
+                <S>New-VmcSddcSiteRecoveryInstance</S>
+                <S>Remove-VmcSddc</S>
+                <S>Remove-VmcSddcCluster</S>
+                <S>Remove-VmcSddcHost</S>
+                <S>Remove-VmcSddcSiteRecoveryInstance</S>
+                <S>Set-VmcClusterEdrsPolicy</S>
+                <S>Set-VmcSddc</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-VmcSddcHost</S>
+                <S>Connect-Vmc</S>
+                <S>Disconnect-Vmc</S>
+                <S>Get-AwsAccount</S>
+                <S>Get-AwsVpcSubnet</S>
+                <S>Get-VmcClusterEdrsPolicy</S>
+                <S>Get-VmcOrganization</S>
+                <S>Get-VmcSddc</S>
+                <S>Get-VmcSddcCluster</S>
+                <S>Get-VmcSddcNetworkService</S>
+                <S>Get-VmcSddcSiteRecovery</S>
+                <S>Get-VmcSddcSiteRecoveryInstance</S>
+                <S>Get-VmcService</S>
+                <S>New-VmcSddc</S>
+                <S>New-VmcSddcCluster</S>
+                <S>New-VmcSddcSiteRecoveryInstance</S>
+                <S>Remove-VmcSddc</S>
+                <S>Remove-VmcSddcCluster</S>
+                <S>Remove-VmcSddcHost</S>
+                <S>Remove-VmcSddcSiteRecoveryInstance</S>
+                <S>Set-VmcClusterEdrsPolicy</S>
+                <S>Set-VmcSddc</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">VMware.CloudServices</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">12.2.0.17463756</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:VMware.CloudServices/12.2.0.17463756</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Copyright (c) 2017 VMware, Inc. All rights reserved.</S>
+          <S N="description">This Windows PowerShell module contains PowerCLI VMC cmdlets.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">214967</S>
+          <S N="downloadCount">2853479</S>
+          <S N="packageSize">742767</S>
+          <S N="published">2/3/2021 1:14:06 PM -05:00</S>
+          <S N="created">2/3/2021 1:14:06 PM -05:00</S>
+          <S N="lastEdited">2/4/2021 12:43:45 PM -05:00</S>
+          <S N="lastUpdated">4/15/2021 7:12:04 PM -04:00</S>
+          <S N="tags">PSModule PSCmdlet_Add-VmcSddcHost PSCommand_Add-VmcSddcHost PSCmdlet_Connect-Vmc PSCommand_Connect-Vmc PSCmdlet_Disconnect-Vmc PSCommand_Disconnect-Vmc PSCmdlet_Get-AwsAccount PSCommand_Get-AwsAccount PSCmdlet_Get-AwsVpcSubnet PSCommand_Get-AwsVpcSubnet PSCmdlet_Get-VmcClusterEdrsPolicy PSCommand_Get-VmcClusterEdrsPolicy PSCmdlet_Get-VmcOrganization PSCommand_Get-VmcOrganization PSCmdlet_Get-VmcSddc PSCommand_Get-VmcSddc PSCmdlet_Get-VmcSddcCluster PSCommand_Get-VmcSddcCluster PSCmdlet_Get-VmcSddcNetworkService PSCommand_Get-VmcSddcNetworkService PSCmdlet_Get-VmcSddcSiteRecovery PSCommand_Get-VmcSddcSiteRecovery PSCmdlet_Get-VmcSddcSiteRecoveryInstance PSCommand_Get-VmcSddcSiteRecoveryInstance PSCmdlet_Get-VmcService PSCommand_Get-VmcService PSCmdlet_New-VmcSddc PSCommand_New-VmcSddc PSCmdlet_New-VmcSddcCluster PSCommand_New-VmcSddcCluster PSCmdlet_New-VmcSddcSiteRecoveryInstance PSCommand_New-VmcSddcSiteRecoveryInstance PSCmdlet_Remove-VmcSddc PSCommand_Remove-VmcSddc PSCmdlet_Remove-VmcSddcCluster PSCommand_Remove-VmcSddcCluster PSCmdlet_Remove-VmcSddcHost PSCommand_Remove-VmcSddcHost PSCmdlet_Remove-VmcSddcSiteRecoveryInstance PSCommand_Remove-VmcSddcSiteRecoveryInstance PSCmdlet_Set-VmcClusterEdrsPolicy PSCommand_Set-VmcClusterEdrsPolicy PSCmdlet_Set-VmcSddc PSCommand_Set-VmcSddc PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-04-15T19:12:04Z</S>
+          <S N="NormalizedVersion">12.2.0.17531704</S>
+          <S N="Authors">VMware</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">VMware.VimAutomation.Vmc.nuspec|EULA.rtf|VMware.VimAutomation.Vmc.cat|VMware.VimAutomation.Vmc.psd1|VMware.VimAutomation.Vmc.psm1|net45\ComponentDescriptor-VMware.VimAutomation.Vmc.Commands.xml|net45\ComponentDescriptor-VMware.VimAutomation.Vmc.xml|net45\EULA.rtf|net45\PackageManifest.xml|net45\VMware.VimAutomation.Vmc.Commands.dll|net45\VMware.VimAutomation.Vmc.Commands.dll-Help.xml|net45\VMware.VimAutomation.Vmc.Format.ps1xml|net45\VMware.VimAutomation.Vmc.Impl.dll|net45\VMware.VimAutomation.Vmc.Interop.dll|net45\VMware.VimAutomation.Vmc.ps1|net45\VMware.VimAutomation.Vmc.psd1|net45\VMware.VimAutomation.Vmc.Types.dll|net45\VMware.Vmc.Autoscaler.Bindings.dll|net45\VMware.Vmc.Bindings.dll|net45\VMware.Vmc.DRaaS.Bindings.dll|netcoreapp2.0\ComponentDescriptor-VMware.VimAutomation.Vmc.Commands.xml|netcoreapp2.0\ComponentDescriptor-VMware.VimAutomation.Vmc.xml|netcoreapp2.0\EULA.rtf|netcoreapp2.0\PackageManifest.xml|netcoreapp2.0\VMware.VimAutomation.Vmc.Commands.dll|netcoreapp2.0\VMware.VimAutomation.Vmc.Commands.dll-Help.xml|netcoreapp2.0\VMware.VimAutomation.Vmc.Format.ps1xml|netcoreapp2.0\VMware.VimAutomation.Vmc.Impl.dll|netcoreapp2.0\VMware.VimAutomation.Vmc.Interop.dll|netcoreapp2.0\VMware.VimAutomation.Vmc.ps1|netcoreapp2.0\VMware.VimAutomation.Vmc.psd1|netcoreapp2.0\VMware.VimAutomation.Vmc.Types.dll|netcoreapp2.0\VMware.Vmc.Autoscaler.Bindings.dll|netcoreapp2.0\VMware.Vmc.Bindings.dll|netcoreapp2.0\VMware.Vmc.DRaaS.Bindings.dll|net45\Resources\autoscalerMetadata.json|net45\Resources\draasMetadata.json|netcoreapp2.0\Resources\autoscalerMetadata.json|netcoreapp2.0\Resources\draasMetadata.json</S>
+          <S N="GUID">502c5bdb-da3c-423f-a4c8-8240b424f89d</S>
+          <S N="CompanyName">VMware, Inc.</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\honey\Documents\PowerShell\Modules\VMware.VimAutomation.Vmc\12.2.0.17531704</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,6 @@
+<ModulePackages>
+   <Package Id="VMware.VimAutomation.HorizonView.Impl" Version="12.3.0.17806051" />
+   <Package Id="VMware.VimAutomation.HorizonView.Interop" Version="12.3.0.17806051" />
+   <Package Id="VMware.VimAutomation.HorizonView.Types" Version="12.3.0.17806051" />
+   <Package Id="VMware.VimAutomation.HorizonView.Commands" Version="12.3.0.17806051" />
+</ModulePackages>
