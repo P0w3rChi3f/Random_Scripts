@@ -21,9 +21,5 @@ foreach ($server in $Servers) {
 
     } | Export-Csv C:\AGMLogs\RebootRequired_$date.csv -Append
 
-
-
-
-
 } # Close Foreach
 
